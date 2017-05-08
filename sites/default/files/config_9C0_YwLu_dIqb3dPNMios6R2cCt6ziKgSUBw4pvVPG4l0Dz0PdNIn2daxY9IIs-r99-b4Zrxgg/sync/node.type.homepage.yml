@@ -1,0 +1,17 @@
+uuid: f97605e2-5e2d-4a4a-9430-b7f4397d5ec3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Homepage
+type: homepage
+description: 'For different types of home page'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

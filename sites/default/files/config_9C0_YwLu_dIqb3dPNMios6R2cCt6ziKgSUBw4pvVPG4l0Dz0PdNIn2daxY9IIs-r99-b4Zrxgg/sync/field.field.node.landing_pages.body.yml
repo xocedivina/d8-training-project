@@ -1,0 +1,22 @@
+uuid: 6ac19011-58d9-477a-884a-4952a7d87bb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.landing_pages
+  module:
+    - text
+id: node.landing_pages.body
+field_name: body
+entity_type: node
+bundle: landing_pages
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

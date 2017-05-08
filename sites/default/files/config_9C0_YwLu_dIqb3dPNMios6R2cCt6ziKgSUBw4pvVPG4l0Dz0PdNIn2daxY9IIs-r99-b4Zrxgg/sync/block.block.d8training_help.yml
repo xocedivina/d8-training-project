@@ -1,0 +1,22 @@
+uuid: 7b55558f-4383-49dd-a93d-51ce9d06abe1
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - d8training
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: d8training_help
+theme: d8training
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
